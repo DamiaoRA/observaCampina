@@ -9,7 +9,7 @@
     <meta name="description" content="Observatório Da Cidade de Campina Grande-PB">
     <meta name="author" content="Maelson Marques de Lima">
 
-    <title>ObsrvaCampina.com</title>
+    <title>ObservaCampina.com</title>
 
 
     <!-- Bootstrap Core CSS -->
@@ -54,11 +54,10 @@
     </div>
     <div class=" navbar-collapse collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right text-vertical-center">
-        <li><a href="#slides"><b>DINÂMICA</b></a></li>
-        <li><a href="#works"><b> SAUDÁVEL</b></a></li>
-        <li><a href="#portfolio"><b>ORAGANIZADA E FUNCIONAL</b></a></li>
-        <li><a href="#services"><b>INCLUSIVA</b></a></li>
-        <li><a href="#mapas"><b>COMPETENTE E INOVADORA</b></a>
+        <li><a href="#about"><b>MAPA INTERATIVO GERAL</b></a></li>
+        <li><a href="#works"><b> PROSPERIDADE</b></a></li>
+        <li><a href="#portfolio"><b>QUALIDADE VIDA</b></a></li>
+        <li><a href="#services"><b>GOVERNO EFICIENTE</b></a></li>
         </li>
       </ul>
     </div>
@@ -70,8 +69,6 @@
         <div class="text-vertical-center">
             <h1 style="color:white">Observatório da Cidade</h1>
             <h3 style="color:white">Prefeitura Municipal de Campina Grande</h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg" style="border-color:white">Opções</a>
         </div>
     </header>
 
@@ -81,80 +78,81 @@
 
 
 <body>
+    <!--
     <section id="slides" >     
  
-    <div class="row text-center slideanim">
-        <style>
-        .mySlides {display:none}
-        .w3-left, .w3-right, .w3-badge {cursor:pointer}
-        .w3-badge {height:13px;width:13px;padding:0}
-        </style>
-        <div class="w3-container">
-          <h2>Slideshow Indicators</h2>
-          <p>Um Exemplo de Como utilizar um Carousel animado de slides com botões laterais e abaixo de cada Slide.</p>
-        </div>
-
-        <div class="w3-content w3-display-container" style="max-width:800px">
-          <img class="mySlides" src="img/img_nature_wide.jpg" style="width:100%">
-          <img class="mySlides" src="img/img_fjords_wide.jpg" style="width:100%">
-          <img class="mySlides" src="img/img_mountains_wide.jpg" style="width:100%">
-            <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-                <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-                <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        <div class="row text-center slideanim">
+            <style>
+            .mySlides {display:none}
+            .w3-left, .w3-right, .w3-badge {cursor:pointer}
+            .w3-badge {height:13px;width:13px;padding:0}
+            </style>
+            <div class="w3-container">
+              <h2>Slideshow Indicators</h2>
+              <p>Um Exemplo de Como utilizar um Carousel animado de slides com botões laterais e abaixo de cada Slide.</p>
             </div>
 
-        <script>
-        var slideIndex = 1;
-        showDivs(slideIndex);
+            <div class="w3-content w3-display-container" style="max-width:800px">
+              <img class="mySlides" src="img/img_nature_wide.jpg" style="width:100%">
+              <img class="mySlides" src="img/img_fjords_wide.jpg" style="width:100%">
+              <img class="mySlides" src="img/img_mountains_wide.jpg" style="width:100%">
+                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                </div>
 
-        function plusDivs(n) {
-          showDivs(slideIndex += n);
-        }
+            <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
 
-        function currentDiv(n) {
-          showDivs(slideIndex = n);
-        }
-
-        function showDivs(n) {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("demo");
-          if (n > x.length) {slideIndex = 1}    
-          if (n < 1) {slideIndex = x.length}
-          for (i = 0; i < x.length; i++) {
-             x[i].style.display = "none";  
-          }
-          for (i = 0; i < dots.length; i++) {
-             dots[i].className = dots[i].className.replace(" w3-white", "");
-          }
-          x[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " w3-white";
-        }
-
-        var myIndex = 0;
-        carousel();
-
-        function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-               x[i].style.display = "none";  
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
             }
-            myIndex++;
-            if (myIndex > x.length) {myIndex = 1}    
-            x[myIndex-1].style.display = "block";  
-            setTimeout(carousel, 2000); // Change image every 2 seconds
-        }
 
-        </script>
-    </div>
-    </section>
+            function currentDiv(n) {
+              showDivs(slideIndex = n);
+            }
+
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              if (n > x.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                 dots[i].className = dots[i].className.replace(" w3-white", "");
+              }
+              x[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " w3-white";
+            }
+
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                   x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+
+            </script>
+        </div>
+    </section> -->
 
 <!-- ##############CASO DE ERRO REMOVA ACIMA############### -->
-    <!-- About -->
+    <!-- About 
     <section id="about" class="about">
         <div class="container">
             <div class="row">
@@ -163,30 +161,32 @@
                     <p class="lead">Mapas Interativos, Planos, Projetos e Legislações, Planejamento Estratégico, Mobilidade Urbana, Portal da Transparência, Acessibilidade, Orçamento Participativo.</p>
                 </div>
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
-    </section>
+    </section> 
+    -->
 
     <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>The buttons below are impossible to resist.</h2>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+    <section id="about" class="about">
+        <aside class="call-to-action bg-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h1><b>SOBRE</b></h1>
+                        <h2>Aqui você encontra dados sobre o município de Campina Grande!</h2>
+                        <a href="#" class="btn btn-lg btn-light">Mapas Interativos, Planos, Projetos e Legislações.</a>
+                         <a href="#" class="btn btn-lg btn-dark"> Planejamento Estratégico, Mobilidade Urbana, Portal da Transparência, Acessibilidade, Orçamento Participativo</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </aside>
+        </aside>
+     </section> 
 
     <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h1><b>Qualidade de Vida</b></h1>
+                    <h1><b>PORTFÓLIO</b></h1>
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-6">
@@ -248,7 +248,7 @@
         <!-- /.container -->
     </section>
 
-    <!-- Call to Action -->
+    <!-- Call to Action 
     <aside class="call-to-action bg-primary">
         <div class="container">
             <div class="row">
@@ -266,95 +266,99 @@
                     <p class="lead">Mapas Interativos, Planos, Projetos e Legislações, Planejamento Estratégico, Mobilidade Urbana, Portal da Transparência, Acessibilidade, Orçamento Participativo.</p>
                 </div>
     </div>
-
+    -->
+<!-- INICIO DA WORKS -->
     <section id="works" class=" clearfix grid">
-    <!-- works INICIO  CÓDIGO SYRUS
-    <div id="works" class=" clearfix grid"> -->
-    <h2><p>Aqui você encontra dados sobre o Município de Campina Grande!</p></h2>
-        <figure class="effect-oscar  wowload fadeInUp">
-            <img src="images/portfolio/1.jpg" alt="img01" />
-            <figcaption>
-                <h2>Adidas</h2>
-                <p>
-                    Lily likes to play with crayons and pencils<br> <a
-                        href="images/portfolio/1.jpg" title="1" data-gallery>View more</a>
-                </p>
-            </figcaption>
-        </figure>
-        <figure class="effect-oscar  wowload fadeInUp">
-            <img src="images/portfolio/2.jpg" alt="img01" />
-            <figcaption>
-                <h2>Jeans</h2>
-                <p>
-                    Lily likes to play with crayons and pencils<br> <a
-                        href="images/portfolio/2.jpg" title="1" data-gallery>View more</a>
-                </p>
-            </figcaption>
-        </figure>
-        <figure class="effect-oscar  wowload fadeInUp">
-            <img src="images/portfolio/3.jpg" alt="img01" />
-            <figcaption>
-                <h2>Metal</h2>
-                <p>
-                    Lily likes to play with crayons and pencils<br> <a
-                        href="images/portfolio/3.jpg" title="1" data-gallery>View more</a>
-                </p>
-            </figcaption>
-        </figure>
-        <figure class="effect-oscar  wowload fadeInUp">
-            <img src="images/portfolio/4.jpg" alt="img01" />
-            <figcaption>
-                <h2>Vintage</h2>
-                <p>
-                    Lily likes to play with crayons and pencils<br> <a
-                        href="images/portfolio/4.jpg" title="1" data-gallery>View more</a>
-                </p>
-            </figcaption>
-        </figure>
-        
-        <figure class="effect-oscar  wowload fadeInUp">
-            <img src="images/portfolio/5.jpg" alt="img01" />
-            <figcaption>
-                <h2>Typers</h2>
-                <p>
-                    Lily likes to play with crayons and pencils<br> <a
-                        href="images/portfolio/5.jpg" title="1" data-gallery>View more</a>
-                </p>
-            </figcaption>
-        </figure>
+        <!-- works INICIO  CÓDIGO SYRUS
+        <div  class=" cont> -->
+        <h1><p>WORKS</p></h1>
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/1.jpg" alt="img01" />
+                <figcaption>
+                    <h2>Adidas</h2>
+                    <p>
+                        Lily likes to play with crayons and pencils<br> <a
+                            href="images/portfolio/1.jpg" title="1" data-gallery>View more</a>
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/2.jpg" alt="img01" />
+                <figcaption>
+                    <h2>Jeans</h2>
+                    <p>
+                        Lily likes to play with crayons and pencils<br> <a
+                            href="images/portfolio/2.jpg" title="1" data-gallery>View more</a>
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/3.jpg" alt="img01" />
+                <figcaption>
+                    <h2>Metal</h2>
+                    <p>
+                        Lily likes to play with crayons and pencils<br> <a
+                            href="images/portfolio/3.jpg" title="1" data-gallery>View more</a>
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/4.jpg" alt="img01" />
+                <figcaption>
+                    <h2>Vintage</h2>
+                    <p>
+                        Lily likes to play with crayons and pencils<br> <a
+                            href="images/portfolio/4.jpg" title="1" data-gallery>View more</a>
+                    </p>
+                </figcaption>
+            </figure>
+            
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/5.jpg" alt="img01" />
+                <figcaption>
+                    <h2>Typers</h2>
+                    <p>
+                        Lily likes to play with crayons and pencils<br> <a
+                            href="images/portfolio/5.jpg" title="1" data-gallery>View more</a>
+                    </p>
+                </figcaption>
+            </figure>
 
-        <figure class="effect-oscar  wowload fadeInUp">
-            <img src="images/portfolio/6.jpg" alt="img01" />
-            <figcaption>
-                <h2>Marco</h2>
-                <p>
-                    Lily likes to play with crayons and pencils<br> <a
-                        href="images/portfolio/6.jpg" title="1" data-gallery>View more</a>
-                </p>
-            </figcaption>
-        </figure>
-        <figure class="effect-oscar  wowload fadeInUp">
-            <img src="images/portfolio/7.jpg" alt="img01" />
-            <figcaption>
-                <h2>Chinese</h2>
-                <p>
-                    Lily likes to play with crayons and pencils<br> <a
-                        href="images/portfolio/7.jpg" title="1" data-gallery>View more</a>
-                </p>
-            </figcaption>
-        </figure>
-        <figure class="effect-oscar  wowload fadeInUp">
-            <img src="images/portfolio/8.jpg" alt="img01" />
-            <figcaption>
-                <h2>Dicrap</h2>
-                <p>
-                    Lily likes to play with crayons and pencils<br> <a
-                        href="images/portfolio/8.jpg" title="1" data-gallery>View more</a>
-                </p>
-            </figcaption>
-        </figure> 
-    </section>
-    <!-- WORKS -->
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/6.jpg" alt="img01" />
+                <figcaption>
+                    <h2>Marco</h2>
+                    <p>
+                        Lily likes to play with crayons and pencils<br> <a
+                            href="images/portfolio/6.jpg" title="1" data-gallery>View more</a>
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/7.jpg" alt="img01" />
+                <figcaption>
+                    <h2>Chinese</h2>
+                    <p>
+                        Lily likes to play with crayons and pencils<br> <a
+                            href="images/portfolio/7.jpg" title="1" data-gallery>View more</a>
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/8.jpg" alt="img01" />
+                <figcaption>
+                    <h2>Dicrap</h2>
+                    <p>
+                        Lily likes to play with crayons and pencils<br> <a
+                            href="images/portfolio/8.jpg" title="1" data-gallery>View more</a>
+                    </p>
+                </figcaption>
+            </figure> 
+
+        </section>
+    <!-- FIM DA WORKS -->
+
+
 <div id="partners" class="container spacer ">
 <!-- Nossa Equipe -->
     <h3 class="text-center  wowload fadeInUp">Nossa Equipe</h3>
@@ -420,30 +424,32 @@
 
 <!--Contato -->
 <div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">CONTACT</h2>
-  <div class="row">
-    <div class="col-sm-5">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
-    </div>
-    <div class="col-sm-7 slideanim">
+  <h2 class="text-center">CONTATO</h2>
+  <div class="container">  
       <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        <div class="col-sm-5">
+          <p>Entre em Contato e responderemos em breve!</p>
+          <p><span class="glyphicon glyphicon-map-marker"></span> Campina Grande-PB</p>
+          <p><span class="glyphicon glyphicon-phone"></span> +55 83 33106283</p>
+          <p><span class="glyphicon glyphicon-envelope"></span>observacampina@gmail.com</p>
         </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        <div class="col-sm-7 slideanim">
+          <div class="row">
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+            </div>
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+            </div>
+          </div>
+          <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+          <div class="row">
+            <div class="col-sm-12 form-group">
+              <button class="btn btn-default pull-right" type="submit">Enviar</button>
+            </div>
+          </div>
         </div>
       </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-      <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
-        </div>
-      </div>
-    </div>
   </div>
 </div>
 
@@ -526,12 +532,6 @@
         <!-- /.container -->
     </section>
 
-    <!-- Callout -->
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Secretaria de Planejamento-SEPLAN</h1>
-        </div>
-    </aside>
     <!-- Footer -->
     <footer>
         <div class="container">
