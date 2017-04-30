@@ -17,19 +17,21 @@ body {
 
 /* TEST DE GRID */
 
+/* Common Systema de grid 
 .grid {
   position: relative;
   margin: 0 auto;
   list-style: none;
   text-align: center;
+
 }
 
-/* Common style */
+/* Common style 
 .grid figure {
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 0;  /*change here for spacing*/ 
+  margin: 0;  /*change here for spacing
   width: 25%;
   text-align: center;
   cursor: pointer;
@@ -65,8 +67,8 @@ body {
   height: 100%;
 }
 
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
+/* Anchor will cover the whole item by default 
+/* For some effects it will show as a button 
 .grid figure figcaption > a {
   z-index: 1000;
   text-indent: 200%;
@@ -90,9 +92,19 @@ body {
   font-size: 68.5%;
 }
 
-*---------------*/
-/***** Chico *****/
+
+nOSSA eQUIPE
+.spacer{padding: 6em 0;}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+/*team*/
 /*---------------*/
+/***** Chico *****/
+/*---------------
 
 figure.effect-chico img {
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -148,20 +160,65 @@ figure.effect-chico:hover p {
   -webkit-transform: scale(1);
   transform: scale(1);
 }
-@media screen and (max-width: 50em) {
-  .content {
-    padding: 0 10px;
-    text-align: center;
+*/
+.team figure{width: 100%;}
+.team img{width: 100%;}
+.team b{font-size: 1.2em;display: block;}
+.team a i.fa{color: #fff; font-size: 2em;}
+.team a i.fa:hover{color: #21abca;}
+/*
+.grid figure h2{font: 700 1.5em Roboto,Arial,Helvetica;}
+
+@-webkit-keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+    transform: translateY(2000px);
   }
-  .grid figure {
-    width: 50%;
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
   }
 }
 
+@keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+    -ms-transform: translateY(2000px);
+    transform: translateY(2000px);
+  }
 
-@media (max-width: 639px) {
-  .grid figure {width: 100%;}
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+.fadeInUpBig {
+  -webkit-animation-name: fadeInUpBig;
+  animation-name: fadeInUpBig;
+}
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+/*
+.partners img{float: left;margin:0 75px 30px 0;}
+
+.spacer{padding: 6em 0;}
+*/
+
+/*nOSSA eQUIPE*/
+
+
 /* TEST DE GRID*/
 
   /*CÓDIGO DO SLIDE*/
@@ -227,22 +284,7 @@ hr.small {
 /*works */
 
 
-/*team */
-.team figure{width: 100%;}
-.team img{width: 100%;}
-.team b{font-size: 1.2em;display: block;}
-.team a i.fa{color: #fff; font-size: 2em;}
-.team a i.fa:hover{color: #21abca;}
 
-.partners img{float: left;margin:0 75px 30px 0;}
-
-.spacer{padding: 6em 0;}
-.fadeInUp{
-  -webkit-animation-name:fadeInUp;
-  animation-name:fadeInUp;
-}
-
-/*team */
 
 /* About */
 
@@ -334,22 +376,28 @@ footer {
 
 @media (max-width: 1200px) {
  
+  body{font:300 13px/13px Roboto,Arial,Helvetica;}
+  .navbar-brand{padding-top: 11px;}
+  .process ul li{margin:0 0.5em; } */
+  
   .grid figure h2{font: 700 1.5em Roboto,Arial,Helvetica;}
   figure.effect-oscar figcaption{padding: 12%;}
   figure.effect-oscar figcaption::before,figure.effect-chico figcaption::before{top: 20px;right: 20px;bottom: 20px;left: 20px;}
 
-  .partners img{margin: 0 25px 25px 0;}
+  .partners img{margin: 0 25px 25px 0;}*/
 }
 
 @media (max-width: 900px) {
  
+  h1{font: 700 3.5em Roboto,Arial,Helvetica;}
+  h4 {font: 300 1.3em Roboto,Arial,Helvetica;}
+  .btn{padding: 1em 2em;}
   .partners img{margin: 0 15px 25px 0;width: 157px;}
   .process ul li{width: 9em;height: 9em;}
-  figure.effect-chico figcaption {padding: 2em;}  
+  figure.effect-chico figcaption {padding: 2em;}  */
   figure.effect-oscar figcaption {padding: 20%;}
   figure.effect-chico figcaption::before{top: 10px;right: 10px;bottom: 10px;left: 10px;}
-  .grid figure.effect-chico p{font-size: 0.6em;line-height: 1.5em;} 
-  
+  .grid figure.effect-chico p{font-size: 0.6em;line-height: 1.5em;}
 }
 
 
