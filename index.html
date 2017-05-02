@@ -55,10 +55,11 @@
     </div>
     <div class=" navbar-collapse collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right text-vertical-center">
-        <li><a href="#about"><b>MAPA INTERATIVO GERAL</b></a></li>
-        <li><a href="#portfolio"><b> PROSPERIDADE</b></a></li>
-        <li><a href="#works"><b>QUALIDADE VIDA</b></a></li>
-        <li><a href="#services"><b>GOVERNO EFICIENTE</b></a></li>
+        <li><a href="#inicio"><b>INÍCIO</b></a></li>
+        <li><a href="#mapaInterativo"><b>MAPA INTERATIVO</b></a></li>
+        <li><a href="#prosperidade"><b> PROSPERIDADE</b></a></li>
+        <li><a href="#qualidadeDeVida"><b>QUALIDADE VIDA</b></a></li>
+        <li><a href="#governoEficiente"><b>GOVERNO EFICIENTE</b></a></li>
         </li>
       </ul>
     </div>
@@ -75,99 +76,12 @@
 
 <!-- ############CASO DE ERRO REMOVA ABAIXO################# -->
 
-<!-- Container (teste Section) -->
 
 
 <body>
-    <!--
-    <section id="slides" >     
- 
-        <div class="row text-center slideanim">
-            <style>
-            .mySlides {display:none}
-            .w3-left, .w3-right, .w3-badge {cursor:pointer}
-            .w3-badge {height:13px;width:13px;padding:0}
-            </style>
-            <div class="w3-container">
-              <h2>Slideshow Indicators</h2>
-              <p>Um Exemplo de Como utilizar um Carousel animado de slides com botões laterais e abaixo de cada Slide.</p>
-            </div>
-
-            <div class="w3-content w3-display-container" style="max-width:800px">
-              <img class="mySlides" src="img/img_nature_wide.jpg" style="width:100%">
-              <img class="mySlides" src="img/img_fjords_wide.jpg" style="width:100%">
-              <img class="mySlides" src="img/img_mountains_wide.jpg" style="width:100%">
-                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-                    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-                    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-                </div>
-
-            <script>
-            var slideIndex = 1;
-            showDivs(slideIndex);
-
-            function plusDivs(n) {
-              showDivs(slideIndex += n);
-            }
-
-            function currentDiv(n) {
-              showDivs(slideIndex = n);
-            }
-
-            function showDivs(n) {
-              var i;
-              var x = document.getElementsByClassName("mySlides");
-              var dots = document.getElementsByClassName("demo");
-              if (n > x.length) {slideIndex = 1}    
-              if (n < 1) {slideIndex = x.length}
-              for (i = 0; i < x.length; i++) {
-                 x[i].style.display = "none";  
-              }
-              for (i = 0; i < dots.length; i++) {
-                 dots[i].className = dots[i].className.replace(" w3-white", "");
-              }
-              x[slideIndex-1].style.display = "block";  
-              dots[slideIndex-1].className += " w3-white";
-            }
-
-            var myIndex = 0;
-            carousel();
-
-            function carousel() {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-                for (i = 0; i < x.length; i++) {
-                   x[i].style.display = "none";  
-                }
-                myIndex++;
-                if (myIndex > x.length) {myIndex = 1}    
-                x[myIndex-1].style.display = "block";  
-                setTimeout(carousel, 2000); // Change image every 2 seconds
-            }
-
-            </script>
-        </div>
-    </section> -->
-
-<!-- ##############CASO DE ERRO REMOVA ACIMA############### -->
-    <!-- About 
-    <section id="about" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Aqui você encontra dados sobre o município de Campina Grande!</h2>
-                    <p class="lead">Mapas Interativos, Planos, Projetos e Legislações, Planejamento Estratégico, Mobilidade Urbana, Portal da Transparência, Acessibilidade, Orçamento Participativo.</p>
-                </div>
-            </div>
-        </div>
-    </section> 
-    -->
 
     <!-- Call to Action -->
-    <section id="about" class="about">
+    <section id="sobre" class="about">
         <aside class="call-to-action bg-primary">
             <div class="container">
                 <div class="row">
@@ -249,28 +163,82 @@
         <!-- /.container -->
     </section>
 
-    <!-- Call to Action 
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>The buttons below are impossible to resist.</h2>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-                </div>
-            </div>
-        </div>
-    </aside>
-    <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Aqui você encontra dados sobre o município de Campina Grande!</h2>
-                    <p class="lead">Mapas Interativos, Planos, Projetos e Legislações, Planejamento Estratégico, Mobilidade Urbana, Portal da Transparência, Acessibilidade, Orçamento Participativo.</p>
-                </div>
-    </div>
-    -->
-<!-- INICIO DA WORKS -->
-    <section id="works" class=" clearfix grid">
-        <h1><p>WORKS</p></h1>
+<!-- INICIO DA GERAL -->
+    <section id="inicio" class=" meugrid clearfix grid">
+        <h1><b><p style="padding-bottom: 10px;">INÍCIO</p></b></h1>
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/economia.jpg" alt="img01" />
+                <figcaption>
+                    <h2>Planejamento Estratégico</h2>
+                    <p>
+                        <br> <a
+                            href="images/portfolio/1.jpg" title="1" data-gallery>View more</a>
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/aluizio.jpg" alt="img01" />
+                <figcaption>
+                    <h2>Banco de Projetos</h2>
+                    <p>
+                        <br> <a
+                            href="images/portfolio/aluizio.jpg" title="1" data-gallery>View more</a>
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/3.jpg" alt="img01" />
+                <figcaption>
+                    <h2>Mobilidade</h2>
+                    <p>
+                        <br> <a
+                            href="images/portfolio/3.jpg" title="1" data-gallery>View more</a>
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/mulher.jpg" alt="img01" />
+                <figcaption>
+                    <h2>Eventos Turísticos</h2>
+                    <p>
+                        <br> <a
+                            href="images/portfolio/mulher.jpg" title="1" data-gallery>View more</a>
+                    </p>
+                </figcaption>
+            </figure>
+            
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/5.jpg" alt="img01" />
+                <figcaption>
+                    <h1><B>Vídeo São João 2017</B></h1>
+                    <p>
+                        <a
+                            href="images/portfolio/5.jpg" title="1" data-gallery>View more
+                        </a>
+                    </p>
+                </figcaption>
+            </figure>
+        </section>
+    <!-- FIM DA GERAL -->
+
+<!-- INICIO DA MAPA INTERATIVO -->
+    <section id="mapaInterativo" class=" meugrid clearfix grid">
+        <h1><b><p style="padding-bottom: 10px;">MAPA INTERATIVO</p></b></h1>
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/economia.jpg" alt="img01" />
+                <figcaption>
+                    <h2>Mapa geral</h2>
+                    <p>
+                        <br> <a
+                            href="images/portfolio/1.jpg" title="1" data-gallery>View more</a>
+                    </p>
+                </figcaption>
+            </figure>
+        </section>
+    <!-- FIM MAPA INTERATIVO -->
+    <!-- INICIO DA PROSPERIDADE -->
+    <section id="prosperidade" class=" meugrid clearfix grid">
+        <h1><b><p style="padding-bottom: 10px;">PROSPERIDADE</p></b></h1>
             <figure class="effect-oscar  wowload fadeInUp">
                 <img src="images/portfolio/economia.jpg" alt="img01" />
                 <figcaption>
@@ -284,9 +252,46 @@
             <figure class="effect-oscar  wowload fadeInUp">
                 <img src="images/portfolio/aluizio.jpg" alt="img01" />
                 <figcaption>
-                    <h2>Aluízio Campos</h2>
+                    <h3><b>Dados Socioeconômicos</b></h3>
                     <p>
                         Complexo habitacional da Cidade<br> <a
+                            href="images/portfolio/aluizio.jpg" title="1" data-gallery>View more</a>
+                    </p>
+                </figcaption>
+            </figure>    
+            
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/5.jpg" alt="img01" />
+                <figcaption>
+                    <h1><B>IDEB </B></h1>
+                    <p>
+                        Íncidices de Educação Municipal<br> <a
+                            href="images/portfolio/5.jpg" title="1" data-gallery>View more</a>
+                    </p>
+                </figcaption>
+            </figure>
+        </section>
+    <!-- FIM DA PROSPERIDADE -->
+
+<!-- INICIO DA QualidadeDeVida -->
+    <section id="qualidadeDeVida" class=" meugrid clearfix grid">
+        <h1><b><p style="padding-bottom: 10px;">QUALIDADE DE VIDADE</p></b></h1>
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/economia.jpg" alt="img01" />
+                <figcaption>
+                    <h2>Educação Comparativa</h2>
+                    <p>
+                        <br> <a
+                            href="images/portfolio/1.jpg" title="1" data-gallery>View more</a>
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/aluizio.jpg" alt="img01" />
+                <figcaption>
+                    <h2>Meu ônibus</h2>
+                    <p>
+                        Rotas de ônibus da Cidade<br> <a
                             href="images/portfolio/aluizio.jpg" title="1" data-gallery>View more</a>
                     </p>
                 </figcaption>
@@ -294,7 +299,7 @@
             <figure class="effect-oscar  wowload fadeInUp">
                 <img src="images/portfolio/3.jpg" alt="img01" />
                 <figcaption>
-                    <h2>Transporte Público</h2>
+                    <h2>Violência Urbana</h2>
                     <p>
                         <br> <a
                             href="images/portfolio/3.jpg" title="1" data-gallery>View more</a>
@@ -315,9 +320,9 @@
             <figure class="effect-oscar  wowload fadeInUp">
                 <img src="images/portfolio/5.jpg" alt="img01" />
                 <figcaption>
-                    <h1><B>IDEB</B></h1>
+                    <h2><B>Acessibilidade</B></h2>
                     <p>
-                        Íncidices de Educação Municipal<br> <a
+                        <br> <a
                             href="images/portfolio/5.jpg" title="1" data-gallery>View more</a>
                     </p>
                 </figcaption>
@@ -326,39 +331,98 @@
             <figure class="effect-oscar  wowload fadeInUp">
                 <img src="images/portfolio/6.jpg" alt="img01" />
                 <figcaption>
-                    <h2>Marco</h2>
+                    <h2>Saúde</h2>
                     <p>
-                        Lily likes to play with crayons and pencils<br> <a
+                        Aedes Aegipti<br> <a
+                            href="images/portfolio/6.jpg" title="1" data-gallery>View more</a>
+                    </p>
+                </figcaption>
+            </figure>
+        </section>
+    <!-- FIM DA QUALIDADE DE VIDA -->
+
+    <!-- INICIO DA GOVERNO EFICIENTE -->
+    <section id="governoEficiente" class="meugrid clearfix grid">
+        <h1><b><p style="padding-bottom: 10px;">GOVERNO EFICIENTE</p></b></h1>
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/economia.jpg" alt="img01" />
+                <figcaption>
+                    <h2>Mapas Temáticos</h2>
+                    <p>
+                        <br> <a
+                            href="images/portfolio/1.jpg" title="1" data-gallery>View more</a>
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/aluizio.jpg" alt="img01" />
+                <figcaption>
+                    <h2>Geo Imagens</h2>
+                    <p>
+                        Complexo habitacional da Cidade<br> <a
+                            href="images/portfolio/aluizio.jpg" title="1" data-gallery>View more</a>
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/3.jpg" alt="img01" />
+                <figcaption>
+                    <h2>Metas 2ª Gestão</h2>
+                    <p>
+                        <br> <a
+                            href="images/portfolio/3.jpg" title="1" data-gallery>View more</a>
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/mulher.jpg" alt="img01" />
+                <figcaption>
+                    <h2>Legislação e Normas</h2>
+                    <p>
+                        <br> <a
+                            href="images/portfolio/mulher.jpg" title="1" data-gallery>View more</a>
+                    </p>
+                </figcaption>
+            </figure>
+            
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/5.jpg" alt="img01" />
+                <figcaption>
+                    <h1><B>Consultas Públicas</B></h1>
+                    <p>
+                        <a
+                            href="images/portfolio/5.jpg" title="1" data-gallery>View more
+                        </a>
+                    </p>
+                </figcaption>
+            </figure>
+
+            <figure class="effect-oscar  wowload fadeInUp">
+                <img src="images/portfolio/6.jpg" alt="img01" />
+                <figcaption>
+                    <h2>Planos e Projetos Municipais</h2>
+                    <p>
+                        <br> <a
                             href="images/portfolio/6.jpg" title="1" data-gallery>View more</a>
                     </p>
                 </figcaption>
             </figure>
             <figure class="effect-oscar  wowload fadeInUp">
-                <img src="images/portfolio/7.jpg" alt="img01" />
+                <img src="images/portfolio/6.jpg" alt="img01" />
                 <figcaption>
-                    <h2>Chinese</h2>
+                    <h2>Agenda do Secretário</h2>
                     <p>
-                        Lily likes to play with crayons and pencils<br> <a
-                            href="images/portfolio/7.jpg" title="1" data-gallery>View more</a>
-                    </p>
-                </figcaption>
-            </figure>
-            <figure class="effect-oscar  wowload fadeInUp">
-                <img src="images/portfolio/8.jpg" alt="img01" />
-                <figcaption>
-                    <h2>Dicrap</h2>
-                    <p>
-                        Lily likes to play with crayons and pencils<br> <a
-                            href="images/portfolio/8.jpg" title="1" data-gallery>View more</a>
+                        <br> <a
+                            href="images/portfolio/6.jpg" title="1" data-gallery>View more</a>
                     </p>
                 </figcaption>
             </figure>
         </section>
-    <!-- FIM DA WORKS -->
+    <!-- FIM DA GOVERNO EFICIENTE -->
 
 
 <!-- Nossa Equipe -->
-    
+    <div id="nossaEquipe" class="nossaEquipe">
         <h3 class="text-center  wowload fadeInUp">Nossa Equipe</h3>
         <p class="text-center  wowload fadeInLeft">Nossa Equipe de Desenvolvimento - GDI-SEPLAN</p>
         <div class="row grid team  wowload fadeInUpBig">
@@ -418,6 +482,7 @@
                 </figure>
             </div>
         </div> <!-- Fim Nossa equipe -->
+    </div>
 
 <!--Contato -->
 <div id="contact" class="container-fluid bg-grey">
@@ -457,76 +522,6 @@
         <small>
             <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d777.5157623170038!2d-35.87666193658211!3d-7.213019520669079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ac1fab9a4122ff%3A0x89e4eeb4bfd87483!2sSEPLAN+-+Secretaria+Municipal+de+Planejamento!5e0!3m2!1sen!2sus!4v1493594328721"></a>
         </small>
-    </section>
-<!-- Services -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Nossos Projetos</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="glyphicon glyphicon-cog fa-stack-1x text-primary"></i>
-                            </span>
-                                <h5>
-                                    <strong>Planejamento Estratégico</strong>
-                                </h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="glyphicon glyphicon-briefcase fa-stack-1x text-primary"></i>
-                            </span>
-                                <h5>
-                                    <strong>Orçamento Participativo</strong>
-                                </h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="glyphicon glyphicon-folder-open fa-stack-1x text-primary"></i>
-                            </span>
-                                <h5>
-                                    <strong>Banco de Projetos</strong>
-                                </h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="glyphicon glyphicon-file fa-stack-1x text-primary"></i>
-                            </span>
-                                <h5>
-                                    <strong>Planos e Projetos Municipais</strong>
-                                </h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
     </section>
 
     <!-- Footer -->
