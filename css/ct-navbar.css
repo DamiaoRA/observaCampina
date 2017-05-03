@@ -1,6 +1,7 @@
 body{
     
 }
+
 @media (max-width: 1000px) {
   
   
@@ -15,18 +16,20 @@ body{
 }
 .navbar li a, .navbar .navbar-right {
       color: #fff !important;
-      margin-left: 12px;
-      margin-right: -40px;
+      margin-left: 9px;
+      margin-right: -30px;
       letter-spacing: 1.5px;
+      margin-top: 10px;
 
   }
 }
+
 @media (min-width: 1000px) {
   
   
   .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
     float: top;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .navbar-nav {
@@ -35,8 +38,9 @@ body{
 }
 .navbar li a, .navbar .navbar-right {
       color: #fff !important;
-      margin-left: -10px;
+      margin-left: -12px;
       letter-spacing: 1.5px;
+       margin-top: 10px;
 
   }
 }
@@ -45,16 +49,18 @@ body{
   
   .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
     float: top;
-    font-size: 11px;
+    font-size: 10.5px;
 }
 
 .navbar-nav {
-    float: left;
+    float: right;
 }
 .navbar li a, .navbar .navbar-right {
       color: #fff !important;
-      margin-left: -14px;
+      margin-left: 4px;
+      margin-right: -20px;
       letter-spacing: 1.5px;
+       margin-top: 10px;
           
 
   }
@@ -71,6 +77,7 @@ body{
 }
 .navbar li a, .navbar .navbar-right {
       color: #fff !important;
+      margin-right: 2px;
   }
 }
 
@@ -137,11 +144,12 @@ body{
   .navbar li a, .navbar .navbar-brand {
       color: #fff !important;
   }
-   .navbar li a, .navbar .navbar-right {
+  /* .navbar li a, .navbar .navbar-right {
       color: #fff !important;
       margin-top: 10px;
+      margin-right: 2px;
 
-  }
+  }*/
   .navbar-nav li a:hover, .navbar-nav li.active a {
       color: #172c94 !important; /*#337ab7;*/ 
       background-color: #fff !important;
