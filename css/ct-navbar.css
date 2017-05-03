@@ -33,17 +33,16 @@ body{
 .navbar li a, .navbar .navbar-right {
       color: #fff !important;
       margin-left: -14px;
-      margin-right: -4px;
-      
+          
 
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   
   
   .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
     float: top;
-    font-size: 9px;
+    font-size: 12px;
 }
 
 .navbar-nav {
